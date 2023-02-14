@@ -1,7 +1,7 @@
 .header {
     background-image: url("../../img/bg.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     padding: 63px 128px 0 128px;
 
 
@@ -12,12 +12,16 @@
         border-radius: 50%;
         background-color: #FFFFFF;
         padding: 13px;
+        background-image: url("../../img/logo.png");
+        background-size: cover;
+
     }
 
     h3 {
         font-size: 24px;
         color: #FFFFFF;
         font-weight: 300;
+        display: flex;
     }
 
     .collapse {
@@ -38,11 +42,47 @@
     .Wecare {
         font-weight: 700;
         font-size: 54px;
-        width: 416px;
         color: #FFFFFF;
         display: flex;
-        padding-right: 128px;
+        align-items: end;
+        flex-direction: column;
+        height: 380px;
     }
+
+    h4 {
+        width: 416px;
+        height: 323px;
+
+    }
+
+    h5 {
+        margin-right: 161px;
+        width: 256px;
+        height: 56px;
+        border-radius: 25px;
+        background-color: #FFFFFF;
+        border: solid #545871 1px;
+        color: #545871;
+        font-size: 24px;
+        text-align: center;
+        padding-top: 16px;
+    }
+
+    .navbar-brand:hover {
+        background-image: url("../../img/GeoLab.GEO.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .text2 {
+        display: none;
+    }
+
+    .text1:hover+.text2 {
+        display: block;
+    }
+
+
 
 
 }

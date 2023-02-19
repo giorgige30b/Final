@@ -74,15 +74,30 @@
         background-repeat: no-repeat;
     }
 
+
+
+    .geolab {
+        display: block;
+        position: relative;
+        align-items: center;
+    }
+
+    .text1 {
+        display: inline-block;
+        position: absolute;
+    }
+
     .text2 {
         display: none;
+        position: absolute;
     }
 
     .text1:hover+.text2 {
         display: block;
+        z-index: 10;
     }
 
-
-
-
+    .text1:hover {
+        display: none;
+    }
 }

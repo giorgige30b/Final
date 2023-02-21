@@ -180,7 +180,7 @@ a {
   display: flex;
   align-items: end;
   flex-direction: column;
-  height: 380px;
+  max-height: 380px;
 }
 .header h4 {
   width: 416px;
@@ -226,6 +226,7 @@ a {
   display: none;
 }
 .header .author {
+  display: inline-block;
   font-size: 16px;
   font-weight: 400px;
   color: #FFFFFF;
@@ -270,18 +271,89 @@ a {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  font-size: 16px;
+  color: #FFFFFF;
 }
-.care .care2 img {
+.care .care2 p {
+  padding: 205px 168px 30px 30px;
+}
+.care .care2 div {
+  max-width: 256px;
+  max-height: 256px;
+  background-size: cover;
+}
+.care .bg1 {
+  background-image: url("../img/PG2/bg1.png");
+  background-repeat: no-repeat;
+}
+.care .bg2 {
+  background-image: url("../img/PG2/bg2.png");
+  background-repeat: no-repeat;
+}
+.care .bg3 {
+  background-image: url("../img/PG2/bg3.png");
+  background-repeat: no-repeat;
+}
+.care .bg4 {
+  background-image: url("../img/PG2/bg4.png");
+  background-repeat: no-repeat;
+}
+
+.services {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.services .service1 {
+  background-image: url(../img/pg3/bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 50%;
+  height: 700px;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.services .service1 h6 {
+  padding-top: 562px;
+  padding-left: 100px;
+}
+.services .service2 {
+  padding-left: 116px;
+  width: 415px;
+  height: 700px;
+}
+.services .service2 h5 {
   width: 256px;
-  height: 256px;
+  height: 56px;
+  border-radius: 25px;
+  background-color: #707070;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 56px;
 }
 
 @media only screen and (max-width: 700px) {
   .header {
     padding: 0px;
   }
+  .header h5 {
+    margin-right: 0px;
+  }
+}
+@media only screen and (max-width: 1150px) {
   .care {
-    padding: 0px;
-    display: block;
+    padding: 20px 0px;
+  }
+  .care2 {
+    gap: 20px;
+  }
+  .care2 div {
+    width: 200px;
+    height: 150px;
+  }
+  .care .care2 p {
+    padding: 120px 0px 0px 30px;
   }
 }/*# sourceMappingURL=global.css.map */

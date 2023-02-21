@@ -22,9 +22,10 @@
     .service2{
         display: flex;
         flex-direction: column;
-        gap: 30px
+        gap: 10%;
         padding-left: 116px;
-        width: 415px;
+        padding-right: 129px;
+        width: 50%;
         height: 700px;
         padding-top: 117px;
         background-color: #F7ECEB;
@@ -32,10 +33,13 @@
     .service2h3{
         font-size: 48px;
         color: #545871;
+        font-weight: 700;
     }
     .service2p {
         color: #545871;
         font-size: 24px;
+        font-weight: 100;
+        
     }
     .service2h5 {
         width: 256px;

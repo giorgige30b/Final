@@ -1,0 +1,69 @@
+.pets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #545871;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
+
+    .petsh1 {
+        padding-top: 107px;
+        padding-bottom: 62px;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .first {
+        display: flex;
+        gap: 70px;
+    }
+
+    .second {
+        display: flex;
+        gap: 70px;
+    }
+
+    .box {
+        color: #545871;
+        display: flex;
+        flex-direction: row;
+        padding: 32px;
+        width: 544px;
+        height: 224px;
+        background-color: #FFFFFF;
+    }
+
+    .boxtext {
+
+        padding-left: 30px;
+    }
+
+    .box h4 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .box p {
+        padding-top: 10px;
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .read {
+        width: 256px;
+        height: 56px;
+        border-radius: 25px;
+        background-color: #EBD0CE;
+        text-align: center;
+        padding-top: 20px;
+        margin-top: 56px;
+        font-size: 24px;
+        color: #545871;
+        margin-bottom: 127px;
+    }
+}

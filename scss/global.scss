@@ -2,40 +2,48 @@
 @import "header.scss";
 @import "care.scss";
 @import "services.scss";
+@import "pets.scss";
+@import "affordable.scss";
+@import "contact.scss";
 
 @media only screen and (max-width: 700px) {
     .header {
         padding: 0px;
-       
-       
+
+
     }
-    .header h5{
+
+    .header h5 {
         margin-right: 0px;
     }
-  
-}
-@media only screen and (max-width: 1150px){
-    .care{
-        padding: 20px 0px;
-      
-     }
-     .care2{
-         gap: 20px;
-     }
-     .care2 div{
-         width: 200px;
-         height: 150px; 
-        
-     }
- 
-     .care .care2 p{ 
-         padding: 120px 0px 0px 30px;
-     }
 
 }
-@media only screen and (max-width: 1020px){
-    .services .service2{
+
+@media only screen and (max-width: 1150px) {
+    .care {
+        padding: 20px 0px;
+
+    }
+
+    .care2 {
+        gap: 20px;
+    }
+
+    .care2 div {
+        width: 200px;
+        height: 150px;
+
+    }
+
+    .care .care2 p {
+        padding: 120px 0px 0px 30px;
+    }
+
+}
+
+@media only screen and (max-width: 1020px) {
+    .services .service2 {
         padding: 0px;
-        
+
     }
 }

@@ -14,7 +14,7 @@
         padding: 13px;
         background-image: url("../../img/logo.png");
         background-size: cover;
-
+        transition: 2s;
     }
 
     h3 {
@@ -102,6 +102,7 @@
     .text1:hover {
         display: none;
     }
+
     .author {
         display: inline-block;
         font-size: 16px;

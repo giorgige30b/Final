@@ -1,0 +1,27 @@
+footer {
+    background-color: #F7ECEB;
+    height: 504px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+
+    .contacth5 {
+        color: #545871;
+        font-size: 48px;
+    }
+
+    .tel {
+        text-decoration: none;
+        color: #545871;
+        font-size: 48px;
+    }
+
+    .mail {
+        color: #545871;
+        text-decoration: none;
+        font-size: 48px;
+        text-decoration: underline;
+    }
+}

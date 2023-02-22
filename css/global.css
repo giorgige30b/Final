@@ -157,6 +157,7 @@ body {
   padding: 13px;
   background-image: url("../../img/logo.png");
   background-size: cover;
+  transition: 2s;
 }
 .header h3 {
   font-size: 24px;
@@ -352,6 +353,178 @@ body {
   text-align: center;
   padding-top: 20px;
   margin-top: 56px;
+}
+
+.pets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #545871;
+  color: #FFFFFF;
+  font-size: 48px;
+  font-weight: 700;
+}
+.pets .petsh1 {
+  padding-top: 107px;
+  padding-bottom: 62px;
+}
+.pets .boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.pets .first {
+  display: flex;
+  gap: 70px;
+}
+.pets .second {
+  display: flex;
+  gap: 70px;
+}
+.pets .box {
+  color: #545871;
+  display: flex;
+  flex-direction: row;
+  padding: 32px;
+  width: 544px;
+  height: 224px;
+  background-color: #FFFFFF;
+}
+.pets .boxtext {
+  padding-left: 30px;
+}
+.pets .box h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.pets .box p {
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.pets .read {
+  width: 256px;
+  height: 56px;
+  border-radius: 25px;
+  background-color: #EBD0CE;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 56px;
+  font-size: 24px;
+  color: #545871;
+  margin-bottom: 127px;
+}
+
+.affordable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 64px;
+}
+.affordable .affordableh1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #545871;
+  padding-top: 112px;
+  padding-bottom: 80px;
+}
+.affordable .affordablep {
+  font-size: 24px;
+  font-weight: 100;
+  padding-bottom: 70px;
+  width: 620px;
+}
+.affordable .affordablebox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 64px;
+}
+.affordable .affbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 352px;
+  border: solid #DADBE6;
+  border-radius: 10px;
+}
+.affordable .affbox img {
+  -o-object-fit: none;
+     object-fit: none;
+  translate: 0px -48px 0px;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background-color: #F7ECEB;
+  border: 1px solid #E6DBDA;
+}
+.affordable .affboxh1 {
+  font-size: 51px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.affordable .affboxp {
+  font-size: 20px;
+  font-weight: 100;
+  width: 223px;
+  height: 124px;
+  text-align: center;
+}
+.affordable .cost {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 348px;
+  background-color: #F0F1F7;
+  height: 125px;
+  padding: 24px;
+  align-items: center;
+  border-color: #E6DBDA;
+}
+.affordable .costh1 {
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.affordable .costp {
+  font-size: 12px;
+  font-weight: 400;
+}
+.affordable .costh6 {
+  color: #FFFFFF;
+  width: 256px;
+  height: 56px;
+  border-radius: 25px;
+  background-color: #707070;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 56px;
+  margin-bottom: 110px;
+}
+
+footer {
+  background-color: #F7ECEB;
+  height: 504px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+footer .contacth5 {
+  color: #545871;
+  font-size: 48px;
+}
+footer .tel {
+  text-decoration: none;
+  color: #545871;
+  font-size: 48px;
+}
+footer .mail {
+  color: #545871;
+  text-decoration: none;
+  font-size: 48px;
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 700px) {

@@ -574,15 +574,18 @@ footer .mail {
   .affordable .affordablebox {
     gap: 10px;
   }
+  .affordable .affordableh1 {
+    font-size: 35px;
+  }
   .affordable .affbox {
-    width: 250px;
+    width: 210px;
     height: 380px;
   }
   .affordable .affboxh1 {
     font-size: 32px;
   }
   .affordable .cost {
-    width: 248px;
+    width: 210px;
   }
 }
 @media only screen and (max-width: 1000px) {
@@ -590,8 +593,43 @@ footer .mail {
     width: 120px;
     height: 172px;
   }
+  .pets .boxtext {
+    width: 180px;
+  }
   .pets .box {
-    padding: 1px;
-    height: 173px;
+    height: auto;
+    width: -moz-min-content;
+    width: min-content;
+  }
+  .pets .first {
+    height: auto;
+    width: -moz-min-content;
+    width: min-content;
+  }
+  .pets .second {
+    height: auto;
+    width: -moz-min-content;
+    width: min-content;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .services .service2h5 {
+    width: 220px;
+  }
+  .pets .boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pets .first {
+    flex-direction: column;
+  }
+  .pets .second {
+    flex-direction: column;
+  }
+  .affordable .affordablebox {
+    flex-direction: column;
+  }
+  .affordable .affordablep {
+    width: auto;
   }
 }/*# sourceMappingURL=global.css.map */

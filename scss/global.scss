@@ -47,3 +47,56 @@
 
     }
 }
+@media only screen and (max-width: 1200px) {
+    .pets .boxes {
+        gap:10px;
+
+    }
+    .pets .box{
+        padding: 16px;
+        width: 450px;
+    }
+    .pets .first {
+        gap: 10px;
+    }
+    .pets .second{
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .affordable .affordablebox{
+        gap: 10px;
+    }
+    .affordable .affbox {
+        width: 250px;
+        
+        height: 380px;
+    }
+    .affordable .affboxh1{
+        font-size: 32px;
+    }
+    .affordable .cost {
+    width: 248px;
+    
+    }
+
+
+}
+@media only screen and (max-width: 1000px){
+    .boxes img{
+        width: 120px;
+        height: 172px;
+        
+    }
+    .pets .box{
+        padding: 1px;
+        height: 173px;
+    }
+    .pets .first{
+       
+    }
+    .pets .second{
+       
+    }
+}

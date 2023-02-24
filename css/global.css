@@ -144,7 +144,7 @@ body {
 }
 
 .header {
-  background-image: url("../../img/bg.png");
+  background-image: url("../img/bg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 63px 128px 0 128px;
@@ -155,7 +155,7 @@ body {
   border-radius: 50%;
   background-color: #FFFFFF;
   padding: 13px;
-  background-image: url("../../img/logo.png");
+  background-image: url("../img/logo.png");
   background-size: cover;
   transition: 2s;
 }
@@ -204,7 +204,7 @@ body {
   padding-top: 16px;
 }
 .header .navbar-brand:hover {
-  background-image: url("../../img/GeoLab.GEO.svg");
+  background-image: url("../img/GeoLab.GEO.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
